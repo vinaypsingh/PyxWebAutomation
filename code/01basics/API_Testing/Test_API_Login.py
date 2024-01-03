@@ -1,9 +1,9 @@
 import requests
 
 
-# install request module to use/make a http methods
+# install requests module to use/make a http methods
 
-def main():
+def Get_info_users():
     # GET request - URL
     response_body = requests.get("https://reqres.in/api/users/2")
     print(response_body.text)
@@ -14,6 +14,4 @@ def main():
     else:
         print("TC#1 - GET requesst is not successful")
 
-
-if __name__ == "__main__":
-    main()
+Get_info_users()
