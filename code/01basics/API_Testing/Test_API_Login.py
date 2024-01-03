@@ -1,4 +1,5 @@
 import requests
+import pytest
 
 
 # install requests module to use/make a http methods

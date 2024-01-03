@@ -1,0 +1,5 @@
+Creating Booking Testcase
+<class 'str'>
+<class 'dict'>
+<class 'dict'>
+{'bookingid': 2861, 'booking': {'firstname': 'Vinay', 'lastname': 'Brown', 'totalprice': 235, 'depositpaid': True, 'bookingdates': {'checkin': '2024-01-02', 'checkout': '2024-03-01'}}}
